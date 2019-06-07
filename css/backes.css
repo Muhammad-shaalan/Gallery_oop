@@ -1,0 +1,14 @@
+body{
+	padding-top: 4.5rem; 
+}
+
+.img-responsive{
+	height: 150px ;
+	width: 200px
+}
+
+.pagination{
+	background-color: #f00;
+	margin: 20px auto;
+    display: inline-flex;
+}

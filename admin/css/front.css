@@ -1,0 +1,163 @@
+body{
+	background-color: #343a40
+}
+
+a{
+	text-decoration: none !important;
+}
+
+/*Start Login*/
+
+.login{
+	margin-top: 60px
+}
+
+.login label{
+	color: #ccc;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+/*End Login*/
+
+nav{
+	border-bottom: 2px solid #353030;
+	color: #ddd
+}
+
+/*Start Side bar*/
+.sidebar a{
+	color: #aaa 
+}
+
+/*End Side Bar*/
+
+/*Start Page_wrapper*/
+
+.page-wrapper{
+	background-color: #fff
+}
+
+.page-wrapper h1{
+	margin-top: 15px;
+	margin-bottom: 20px
+}
+
+.page-wrapper li{
+	display: inline-block;
+}
+
+.img-fluid{
+	max-width: 170px;
+	width: 100%
+}
+
+.row{
+	margin-right: 0;
+	margin-bottom: 10px
+}
+
+/*Start Upload Page*/
+
+.dropzone{
+	border: 5px dashed #f00;
+}
+
+
+/*End Upload Page*/
+
+/*START PHOTO EDIT PAGE*/
+
+.photo-info-box{
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #fff;
+	display: inline-block;
+}
+
+.info-box-header{
+	padding: 6px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #fff
+}
+
+.box-inner{
+	padding: 6px;
+	border: 1px solid #e5e5e5;
+	background-color: #fff
+}
+
+.box-inner .text{
+	padding: 7px 9px 0px
+}
+
+.box-inner .text .data{
+	font-weight: bold;
+}
+
+.info-box-footer{
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+	background-color: #ddd;
+	padding: 10px
+}
+
+/*END PHOTO EDIT PAGE*/
+
+/*START USER PAGE*/
+
+.cls-iuser-mage{
+	height: 62px;
+	width: 62px;
+	border-radius: 50%
+}
+
+/*END USER PAGE*/
+
+/*START USER Edit PAGE*/
+
+.user-img-edit{
+	max-width: 450px;
+	width: 100%
+}
+
+/*End USER Edit PAGE*/
+
+/*Start Dashbord*/
+
+.card-text-num{
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.card-text{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+/*End Dashbord*/
+
+/*Start Modal*/
+@media (min-width: 576px){
+	.modal-dialog {
+	    max-width: 90%;
+	    margin: 30px auto;
+	}
+}
+
+.modal-photo{
+	height: 90%;
+	width: 100%;
+}
+
+/*End Modal*/
+
